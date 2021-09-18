@@ -32,32 +32,22 @@ background-repeat:no-repeat;
         min-height:540px;
     }
 }
-.bg-text{
-    
-    position: absolute;
-    left: 62%;
-    top: 20%;
-   
-    transform:translate(-39%,-10%);
-    
-    text-align: center;
-    color:#FF9999;
-    font-size:35px;
-    line-height:65px;
-    font-family:lucida Handwriting;
-}
+
 
 @media screen and  (max-width:480px)
 {
     .bg-text{
        
-        line-height:50px;
+       
         position: absolute;
     left: 50%;
     top: 60%;
-   
+    text-align: center;
+    color:#FF9999;
+    font-size:35px;
+    line-height:50px;
     transform:translate(-50%,-40%);
-    
+    font-family:lucida Handwriting;
         
     }
    
