@@ -1,0 +1,112 @@
+*{
+    margin:0px;
+    padding:0px;
+   
+}
+header{
+    font-family: cursive;
+}
+header a{
+    padding:0 20px;
+}
+
+header .navs {
+font-size:20px;
+font-weight:600;
+}
+.bg-image{
+background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url("https://www.hrzone.com/sites/default/files/istockthitareesarmkasat.jpg");
+min-height:620px;
+background-size: cover;
+background-repeat:no-repeat;
+    
+}
+@media screen and  (max-width:480px)
+{
+    .bg-image{
+        background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ),url("https://www.hrzone.com/sites/default/files/istockthitareesarmkasat.jpg");
+        background-repeat:no-repeat;
+        background-position:center center ;
+    
+        background-size: cover;
+        min-height:540px;
+    }
+}
+.bg-text{
+    
+    position: absolute;
+    left: 62%;
+    top: 30%;
+   
+    transform:translate(-35%,-5%);
+    
+    text-align: center;
+    color:#FF9999;
+    font-size:35px;
+    line-height:65px;
+    font-family:Lucida Handwriting;
+}
+
+@media screen and  (max-width:480px)
+{
+    .bg-text{
+       
+        line-height:50px;
+        position: absolute;
+    left: 50%;
+    top: 60%;
+   
+    transform:translate(-50%,-40%);
+    
+        
+    }
+   
+}
+
+.bg-text button{
+border-radius:10px;
+border:none;
+padding:8px;
+background:linear-gradient(50deg,#CC33FF,#CC33FF,#FF9999);
+
+}
+@media screen and  (max-width:480px)
+{
+    .bg-text button{
+        
+        border-radius:7px;
+        font-size:25px;
+        font-weight: 500;
+        
+    }
+}
+#about,#featured-cause,#support,#volunteer,#testimonials,footer{
+font-family:cursive;
+}
+p{
+    font-size:18px;
+}
+@media  screen and (max-width:480px)
+
+{
+    p{
+        font-size: 16px;
+    }
+}    
+
+.mission h3,.vision h3{
+    font-family: poppins;
+    color:purple;
+    font-style: italic;
+text-shadow:3px 3px 7px rgba(250, 172, 172, 0.705);
+
+}
+@media screen and (max-width:480px)
+    
+{
+#donate img
+{
+width: 100%;
+margin: auto;
+}
+}
